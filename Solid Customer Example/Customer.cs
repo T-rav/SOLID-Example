@@ -45,7 +45,7 @@ namespace Solid_Customer_Example
                 var reportPath = "D:\\Systems\\customers.html";
                 using (var file = File.OpenWrite(reportPath)) // todo : correct the DI violation on Console.WriteLine
                 {
-                    var data = Encoding.UTF8.GetBytes("<html><body><table><tr><td>Name</td><td>Production</td><td>Price without VAT</td><td>VAT</td></tr>");
+                    var data = Encoding.UTF8.GetBytes("<html><body><table><tr><td>Name</td><td>Production</td><td>Price excluding VAT</td><td>VAT</td></tr>");
                     file.Write(data, 0, data.Length);
                     foreach (var customer in customers)
                     {
