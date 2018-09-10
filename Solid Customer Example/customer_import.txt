@@ -1,0 +1,5 @@
+﻿Customer 1,Service 1,100.99
+Customer 2,Service 5,99.05
+Customer 3,Service 3,12.15
+Customer 4,Service 4,50.55
+Customer 5,Service 2,35.95
